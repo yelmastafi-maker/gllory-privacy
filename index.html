@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GLLORY – Privacy Policy</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: #0D0824;
+      color: #e2e0f0;
+      line-height: 1.7;
+      padding: 40px 20px 80px;
+    }
+    .container { max-width: 720px; margin: 0 auto; }
+    .logo {
+      font-size: 28px;
+      font-weight: 900;
+      letter-spacing: 2px;
+      background: linear-gradient(90deg, #F0287B, #A855F7);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 8px;
+    }
+    h1 { font-size: 22px; font-weight: 700; color: #fff; margin-bottom: 6px; }
+    .updated { font-size: 13px; color: rgba(255,255,255,0.4); margin-bottom: 40px; }
+    h2 {
+      font-size: 15px;
+      font-weight: 700;
+      color: #A78BFA;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      margin: 36px 0 10px;
+    }
+    p { font-size: 15px; color: rgba(255,255,255,0.75); margin-bottom: 12px; }
+    ul { padding-left: 20px; margin-bottom: 12px; }
+    li { font-size: 15px; color: rgba(255,255,255,0.75); margin-bottom: 6px; }
+    a { color: #A78BFA; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .divider { border: none; border-top: 1px solid rgba(255,255,255,0.08); margin: 40px 0 0; }
+    .footer { font-size: 13px; color: rgba(255,255,255,0.3); margin-top: 16px; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="logo">GLLORY</div>
+    <h1>Privacy Policy</h1>
+    <p class="updated">Last updated: May 2, 2025</p>
+
+    <p>
+      GLLORY ("we", "our", or "us") is committed to protecting your privacy.
+      This policy explains what information we collect when you use the GLLORY
+      mobile application, how we use it, and your rights regarding that data.
+    </p>
+
+    <h2>1. Information We Collect</h2>
+    <p>We collect only what is necessary to provide the app's features:</p>
+    <ul>
+      <li><strong>Account information</strong> — email address and password (stored securely via Supabase Auth).</li>
+      <li><strong>Profile information</strong> — name, age, and skin type that you enter during onboarding.</li>
+      <li><strong>Scan data</strong> — face and dental scan results generated entirely on your device. Raw camera images are processed locally and never uploaded to our servers.</li>
+      <li><strong>Product scan data</strong> — photos of product labels you choose to scan are sent to Google's Gemini API for ingredient analysis and then discarded. We do not store these images.</li>
+      <li><strong>Usage data</strong> — anonymous crash reports and error logs (via Sentry) to help us fix bugs. No personally identifiable information is included in these reports.</li>
+    </ul>
+
+    <h2>2. How We Use Your Information</h2>
+    <ul>
+      <li>To create and manage your account.</li>
+      <li>To generate personalised skin and dental health scores on your device.</li>
+      <li>To analyse product ingredients and provide compatibility scores.</li>
+      <li>To send optional daily scan reminder notifications (only if you grant permission).</li>
+      <li>To improve app stability using anonymised crash data.</li>
+    </ul>
+    <p>We do <strong>not</strong> sell, rent, or share your personal data with advertisers or third-party marketers.</p>
+
+    <h2>3. Data Storage</h2>
+    <p>
+      Scan results, your routine, and preferences are stored <strong>locally on your device</strong>
+      using encrypted AsyncStorage. Your account credentials are stored securely by
+      <a href="https://supabase.com/privacy" target="_blank">Supabase</a> in accordance with
+      their privacy policy.
+    </p>
+    <p>
+      Product label images sent for AI analysis are transmitted to
+      <a href="https://policies.google.com/privacy" target="_blank">Google Gemini API</a>
+      over an encrypted HTTPS connection. Google's data handling is governed by their privacy policy.
+    </p>
+
+    <h2>4. Data Retention</h2>
+    <p>
+      Local data remains on your device until you delete the app or clear its data.
+      Account data held by Supabase is deleted within 30 days of an account deletion request.
+      You can request deletion by contacting us at the email below.
+    </p>
+
+    <h2>5. Children's Privacy</h2>
+    <p>
+      GLLORY is not directed at children under 13 years of age. We do not knowingly collect
+      personal information from children under 13. If you believe we have inadvertently collected
+      such information, please contact us immediately.
+    </p>
+
+    <h2>6. Not a Medical Device</h2>
+    <p>
+      GLLORY is not a medical device. Skin scores, health insights, and product compatibility
+      ratings are for informational and educational purposes only. They are not a substitute
+      for professional medical advice, diagnosis, or treatment. Always consult a qualified
+      healthcare provider for medical concerns.
+    </p>
+
+    <h2>7. Your Rights</h2>
+    <p>Depending on your location, you may have the right to:</p>
+    <ul>
+      <li>Access the personal data we hold about you.</li>
+      <li>Request correction of inaccurate data.</li>
+      <li>Request deletion of your account and associated data.</li>
+      <li>Object to or restrict certain processing of your data.</li>
+      <li>Data portability (receive a copy of your data in a machine-readable format).</li>
+    </ul>
+    <p>To exercise any of these rights, email us at <a href="mailto:yelmastafi@gmail.com">yelmastafi@gmail.com</a>.</p>
+
+    <h2>8. Security</h2>
+    <p>
+      We use industry-standard measures including HTTPS encryption for all data in transit
+      and Supabase's built-in security for account data. No method of transmission over the
+      internet is 100% secure; however, we strive to use commercially acceptable means to
+      protect your information.
+    </p>
+
+    <h2>9. Changes to This Policy</h2>
+    <p>
+      We may update this Privacy Policy from time to time. We will notify you of significant
+      changes by updating the "Last updated" date at the top of this page. Continued use of
+      the app after changes constitutes acceptance of the revised policy.
+    </p>
+
+    <h2>10. Contact Us</h2>
+    <p>
+      If you have any questions or concerns about this Privacy Policy, please contact us at:<br />
+      <a href="mailto:yelmastafi@gmail.com">yelmastafi@gmail.com</a>
+    </p>
+
+    <hr class="divider" />
+    <p class="footer">© 2025 GLLORY. All rights reserved.</p>
+  </div>
+</body>
+</html>
